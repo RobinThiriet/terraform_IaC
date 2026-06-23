@@ -18,7 +18,7 @@ variable "instance_name" {
 variable "flavor" {
   description = "Taille de l'instance OVHcloud"
   type        = string
-  default     = "s1-4"
+  default     = "b2-7"
 }
 
 variable "image_name" {
